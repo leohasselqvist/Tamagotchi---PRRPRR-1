@@ -4,6 +4,10 @@ Du kan ladda ner projektet genom den gröna "Clone or download" knappen där upp
 
 Om du vill bara ha koden för Form1.CS finns den här:
 
+**Du ska inte copy-paste:a hela, detta ska bara användas som en referens!**
+
+(Bilden kommer förmodligen inte ladda in)
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -92,6 +96,13 @@ namespace Tamagotchi
             SleepButton.Enabled = false;
             // Stoppa timern som långsamt dödar tamagotchi:n
             timer2.Stop();
+        }
+
+        private void EnergyLabel_Click(object sender, EventArgs e)
+        {
+            Random rand = new Random();
+            EnergyLabeI.Location = new Point(rand.Next(0, 600), 20);
+            EnergyLabeI.ForeColor = Color.Black;
         }
     }
 }

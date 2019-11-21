@@ -86,5 +86,12 @@ namespace Tamagotchi
             // Stoppa timern som långsamt dödar tamagotchi:n
             timer2.Stop();
         }
+
+        private void EnergyLabel_Click(object sender, EventArgs e)
+        {
+            Random rand = new Random();
+            EnergyLabeI.Location = new Point(rand.Next(0, 600), 20);
+            EnergyLabeI.ForeColor = Color.Black;
+        }
     }
 }
