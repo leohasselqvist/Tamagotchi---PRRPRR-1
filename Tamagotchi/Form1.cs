@@ -14,6 +14,7 @@ namespace Tamagotchi
 {
     public partial class Form1 : Form
     {
+        // Deklarera alla 3 stats
         int food = 100;
         int happiness = 100;
         int energy = 100;
@@ -21,8 +22,9 @@ namespace Tamagotchi
         public Form1()
         {
             InitializeComponent();
+            // Starta alla timers
             timer1.Start();
-            timer2.Interval = 1000;
+            timer2.Interval = 1000; // Gör så att timer2 kör varje sekund istället för varje tick.
             timer2.Start();
         }
 
@@ -65,6 +67,7 @@ namespace Tamagotchi
 
         private void Timer2_Tick(object sender, EventArgs e)
         {
+            // Långsamt döda tamagotchi:n, denna timer:n kör varenda 2 sekunder.
             food -= 2;
             happiness -= 1;
         }
@@ -72,23 +75,16 @@ namespace Tamagotchi
 
         private void die()
         {
+            // Ändra texten till YOU DIED
             HungerLabel.Text = "";
-            HappyLabel.Text = "YOU DIED GAME OVER";
+            HappyLabel.Text = "YOU DIED";
             EnergyLabel.Text = "";
+            // Gör så att man inte kan trycka knapparna när man är död
             FeedButton.Enabled = false;
             PlayButton.Enabled = false;
             SleepButton.Enabled = false;
+            // Stoppa timern som långsamt dödar tamagotchi:n
             timer2.Stop();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

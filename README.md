@@ -1,8 +1,8 @@
 # Tamagotchi
 Detta är koden för Tamagotchi projektet
-Du kan ladda ner projektet genom den gröna "Clone" knappen där uppe sedan "Download as zip"
+Du kan ladda ner projektet genom den gröna "Clone or download" knappen där uppe sedan "Download ZIP"
 
-Om du vill bara ha koden för Form.CS finns den är
+Om du vill bara ha koden för Form1.CS finns den här:
 
 ```csharp
 using System;
@@ -21,6 +21,7 @@ namespace Tamagotchi
 {
     public partial class Form1 : Form
     {
+        // Deklarera alla 3 stats
         int food = 100;
         int happiness = 100;
         int energy = 100;
@@ -28,8 +29,9 @@ namespace Tamagotchi
         public Form1()
         {
             InitializeComponent();
+            // Starta alla timers
             timer1.Start();
-            timer2.Interval = 1000;
+            timer2.Interval = 1000; // Gör så att timer2 kör varje sekund istället för varje tick.
             timer2.Start();
         }
 
@@ -72,6 +74,7 @@ namespace Tamagotchi
 
         private void Timer2_Tick(object sender, EventArgs e)
         {
+            // Långsamt döda tamagotchi:n, denna timer:n kör varenda 2 sekunder.
             food -= 2;
             happiness -= 1;
         }
@@ -79,16 +82,17 @@ namespace Tamagotchi
 
         private void die()
         {
+            // Ändra texten till YOU DIED
             HungerLabel.Text = "";
-            HappyLabel.Text = "YOU DIED GAME OVER";
+            HappyLabel.Text = "YOU DIED";
             EnergyLabel.Text = "";
+            // Gör så att man inte kan trycka knapparna när man är död
             FeedButton.Enabled = false;
             PlayButton.Enabled = false;
             SleepButton.Enabled = false;
+            // Stoppa timern som långsamt dödar tamagotchi:n
             timer2.Stop();
         }
     }
 }
 ```
-
-Kör på!
