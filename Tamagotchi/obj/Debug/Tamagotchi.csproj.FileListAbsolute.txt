@@ -1,0 +1,19 @@
+C:\Users\leo.hasselqvist\source\repos\Tamagotchi\Tamagotchi\bin\Debug\Tamagotchi.exe.config
+C:\Users\leo.hasselqvist\source\repos\Tamagotchi\Tamagotchi\bin\Debug\Tamagotchi.exe
+C:\Users\leo.hasselqvist\source\repos\Tamagotchi\Tamagotchi\bin\Debug\Tamagotchi.pdb
+C:\Users\leo.hasselqvist\source\repos\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.csprojAssemblyReference.cache
+C:\Users\leo.hasselqvist\source\repos\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.Properties.Resources.resources
+C:\Users\leo.hasselqvist\source\repos\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.csproj.GenerateResource.cache
+C:\Users\leo.hasselqvist\source\repos\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.csproj.CoreCompileInputs.cache
+C:\Users\leo.hasselqvist\source\repos\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.exe
+C:\Users\leo.hasselqvist\source\repos\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.pdb
+C:\Users\leo.hasselqvist\source\repos\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.Form1.resources
+C:\Users\Josef\Academedia\Leo Hasselqvist - Leo & Teo\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.csprojAssemblyReference.cache
+C:\Users\Josef\Academedia\Leo Hasselqvist - Leo & Teo\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.Form1.resources
+C:\Users\Josef\Academedia\Leo Hasselqvist - Leo & Teo\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.Properties.Resources.resources
+C:\Users\Josef\Academedia\Leo Hasselqvist - Leo & Teo\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.csproj.GenerateResource.cache
+C:\Users\Josef\Academedia\Leo Hasselqvist - Leo & Teo\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.exe
+C:\Users\Josef\Academedia\Leo Hasselqvist - Leo & Teo\Tamagotchi\Tamagotchi\obj\Debug\Tamagotchi.pdb
+C:\Users\Josef\Academedia\Leo Hasselqvist - Leo & Teo\Tamagotchi\Tamagotchi\bin\Debug\Tamagotchi.exe.config
+C:\Users\Josef\Academedia\Leo Hasselqvist - Leo & Teo\Tamagotchi\Tamagotchi\bin\Debug\Tamagotchi.exe
+C:\Users\Josef\Academedia\Leo Hasselqvist - Leo & Teo\Tamagotchi\Tamagotchi\bin\Debug\Tamagotchi.pdb
