@@ -128,7 +128,7 @@
             // 
             this.EnergyLabeI.AutoSize = true;
             this.EnergyLabeI.ForeColor = System.Drawing.SystemColors.Control;
-            this.EnergyLabeI.Location = new System.Drawing.Point(330, 20);
+            this.EnergyLabeI.Location = new System.Drawing.Point(-30, -30);
             this.EnergyLabeI.Name = "EnergyLabeI";
             this.EnergyLabeI.Size = new System.Drawing.Size(149, 17);
             this.EnergyLabeI.TabIndex = 7;
